@@ -13,4 +13,10 @@ public class Dog extends Animal
     {
         return true;
     }
+
+    @Override
+    public void Rawr()
+    {
+        System.out.println("i r angry");
+    }
 }

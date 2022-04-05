@@ -10,4 +10,11 @@ public class Cat extends Animal
     {
         return true;
     }
+
+    @Override
+    public void Rawr()
+    {
+        System.out.println("i r angry");
+    }
 }
+
